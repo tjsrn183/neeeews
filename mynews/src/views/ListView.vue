@@ -1,12 +1,14 @@
 <template>
   <div>
-    유저뷰
+   <list-item></list-item>
   </div>
 </template>
 
 <script>
+import ListItem from '../components/ListItem.vue';
 export default {
-
+  components: { ListItem },
+ListItem
 }
 </script>
 

@@ -33,7 +33,7 @@ methods:{
     this.loading=false;
   }
 },
-create(){
+created(){
   bus.$on('on:progress',this.onProgress);
   bus.$on('off:progress', this.offProgress);
 }
